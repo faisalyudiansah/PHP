@@ -11,11 +11,11 @@ var_dump($newVariable("ronaldo", 2));
 $player = "kaka";
 var_dump(strtoupper($player));
 
-function testingNew(string $a, $builtInFunction)
+function newTesting(string $a, $builtInFunction)
 {
     $value = $builtInFunction($a);
     return $value;
 }
 
-var_dump(testingNew("MESSI", "strtolower"));
-var_dump(testingNew("ronaldo", "strtoupper"));
+var_dump(newTesting("MESSI", "strtolower"));
+var_dump(newTesting("ronaldo", "strtoupper"));

@@ -4,11 +4,11 @@ function testing($player, ...$menjadiArray) // menjadi array harus ditaruh palin
     return $menjadiArray;
 }
 
-function testingKedua($player = "messi")
+function anotherTesting($player = "messi")
 {
     return $player;
 }
 
 var_dump(testing("ronaldo", 1, 2, 3, 4, 5));
-var_dump(testingKedua("ronaldo"));
-var_dump(testingKedua()); //menjadi messi karena function testingKedua mempunyai nilai default
+var_dump(anotherTesting("ronaldo"));
+var_dump(anotherTesting()); //menjadi messi karena function anotherTesting mempunyai nilai default
